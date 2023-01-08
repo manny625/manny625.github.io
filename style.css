@@ -1,0 +1,285 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
+
+nav {
+  background-color: gray;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.col {
+  display: inline-block;
+  text-align: center;
+  width: 10%;
+}
+
+.product-info {
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+h2 {
+  font-size: 65px;
+}
+
+.product {
+  font-size: 40px;
+}
+
+.links {
+  margin-top: 30px;
+}
+
+.product-img {
+  margin-top: -15px;
+}
+
+.product-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.col-3 {
+  display: inline-block;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+}
+
+.link-2 {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(112, 106, 106, 0.37);
+  margin-top: 20px;
+  padding-bottom: 60px;
+  margin-top: 25px;
+  height: 35%;
+}
+
+.col-1 {
+  vertical-align: top;
+  display: inline-block;
+  margin: 3%;
+}
+
+.col-1 h4 {
+  margin-top: 30px;
+}
+
+.primary {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+  width: 800px;
+  margin-left: 30px;
+  margin-top: -80px;
+  text-align: right;
+}
+
+.secondary {
+  width: 80%;
+  text-align: center;
+}
+
+.privacy,
+.terms,
+.sales {
+  border-right: 1px solid black;
+}
+
+.copyright,
+.terms,
+.sales,
+.site-map,
+.privacy {
+  display: inline-block;
+  width: 14%;
+}
+
+.primary,
+.secondary {
+  margin: 50px;
+}
+
+.usa {
+  float: right;
+  font-size: 15px;
+}
+
+.privacy,
+.terms,
+.sales,
+.site-map {
+  font-size: 9px;
+}
+
+.letters {
+  font-size: 15px;
+}
+
+.primary-sentence {
+  margin-right: 255px;
+}
